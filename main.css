@@ -1,0 +1,55 @@
+body {
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: 'Oxygen Mono', monospace;
+}
+
+.header {
+  background: url('bg.jpg') no-repeat top;
+  background-color: rgba(255, 255, 255, 0.7);
+  background-size: 100% auto;
+  top: 0;
+  border-top: 4px solid #e91e63;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  justify-content: center;
+  min-height: 250px;
+  padding: 0 20px;
+  position: relative;
+  text-align: center;
+}
+
+.header h1 {
+  font-family: 'Rochester', cursive;
+  text-align: center;
+  font-size: 4em;
+}
+.tagline{
+  min-width: 200px;
+  background-color: #F5F5F5;
+  background-size: 100% auto;
+  margin-top: -1.5%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  padding-left: 5%;
+}
+.skills{
+  min-width: 200px;
+  background-color: #e91e63;
+  background-size: 100% auto;
+  margin-top: -1.5%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  padding-left: 5%;
+  color: #fff;
+}
+.contact{
+  min-width: 200px;
+  background-color: #F5F5F5;
+  background-size: 100% auto;
+  margin-top: -1.5%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  padding-left: 5%;
+}
